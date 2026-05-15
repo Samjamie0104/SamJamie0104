@@ -1,217 +1,202 @@
 <div align="center">
 
-# Sam Topping
-### Embedded Systems & Electronics Engineer
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=220&section=header&text=Sam%20Topping&fontSize=42&fontColor=58a6ff&fontAlignY=35&desc=Embedded%20Systems%20%26%20Electronics%20Engineer&descSize=18&descColor=8b949e&descAlignY=55&animation=fadeIn" alt="header" />
 
-*First Class MEng · Robert Gordon University · Aberdeen, Scotland*
+<br>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-sam--topping.co.uk-0d1117?style=flat-square&logo=safari&logoColor=white&labelColor=21262d)](https://www.sam-topping.co.uk)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-sam--topping-0d1117?style=flat-square&logo=linkedin&logoColor=0A66C2&labelColor=21262d)](https://www.linkedin.com/in/sam-topping-768558229/)
-[![GitHub](https://img.shields.io/badge/GitHub-Samjamie0104-0d1117?style=flat-square&logo=github&logoColor=white&labelColor=21262d)](https://github.com/Samjamie0104)
+<a href="https://www.sam-topping.co.uk">
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=18&duration=3500&pause=1500&color=58A6FF&center=true&vCenter=true&repeat=true&width=650&height=35&lines=Firmware+from+bare+metal.+PCBs+from+schematic.+Systems+from+scratch.;Register-level+ARM+%26+RISC-V+%E2%80%94+no+HAL%2C+no+shortcuts;1kV+insulation+testing+%C2%B7+subsea+instrumentation+%C2%B7+6-layer+PCBs;Building+what+software+alone+can%27t." alt="Typing SVG" />
+</a>
+
+<br><br>
+
+[![Portfolio](https://img.shields.io/badge/sam--topping.co.uk-58a6ff?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0d1117)](https://www.sam-topping.co.uk)
+&nbsp;&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-58a6ff?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://www.linkedin.com/in/sam-topping-768558229/)
+&nbsp;&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-58a6ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Samjamie0104)
 
 </div>
 
----
-
-# About
-
-I design embedded systems from the PCB up — hardware, firmware, power electronics, and low-level software.
-
-My work spans bare-metal ARM and RISC-V development, high-voltage instrumentation, embedded communications, and production-oriented PCB design. I specialise in systems that operate close to the hardware layer: register-level firmware, mixed-signal electronics, and robust embedded architectures designed for real-world deployment.
-
-Currently completing a First Class MEng in Electronic & Embedded Systems at Robert Gordon University, with industry experience developing subsea instrumentation systems at **Ashtead Technology**.
+<br>
 
 ---
 
-# Stack
+```c
+/* ════════════════════════════════════════════════════════════════════════
+ *  SYSTEM INIT
+ *  ──────────────────────────────────────────────────────────────────────
+ *  Engineer    Sam Topping
+ *  Education   MEng Electronic & Embedded Systems (First Class)
+ *              Robert Gordon University · Aberdeen, Scotland
+ *  Industry    Ashtead Technology — Subsea Instrumentation
+ *  Domain      Hardware · Firmware · Power Electronics · PCB Design
+ *  Focus       RTOS Development · HV PCB Design · Multimaster I2C
+ * ════════════════════════════════════════════════════════════════════════ */
 
-## Languages
+#define PHILOSOPHY "If the datasheet doesn't scare you, you haven't read it properly."
+```
 
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![ARM Assembly](https://img.shields.io/badge/ARM_Assembly-0091BD?style=flat-square)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+I design embedded systems from the PCB up — hardware, firmware, power electronics, and low-level software. My work spans bare-metal ARM and RISC-V development, high-voltage instrumentation, embedded communications, and production-oriented PCB design.
 
----
-
-## Hardware & Embedded
-
-![STM32](https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)
-![RISC-V](https://img.shields.io/badge/RISC--V-283272?style=flat-square&logo=riscv&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00878F?style=flat-square&logo=arduino&logoColor=white)
-![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=flat-square&logo=kicad&logoColor=white)
-![Bare Metal](https://img.shields.io/badge/Bare_Metal-success?style=flat-square)
-![High Voltage](https://img.shields.io/badge/High_Voltage_PCB_%E2%9A%A1-critical?style=flat-square)
-![Embedded Linux](https://img.shields.io/badge/Embedded_Linux-0d1117?style=flat-square&logo=linux&logoColor=FCC624)
-![I2C](https://img.shields.io/badge/I2C-222222?style=flat-square)
-![SPI](https://img.shields.io/badge/SPI-222222?style=flat-square)
-![UART](https://img.shields.io/badge/UART-222222?style=flat-square)
-
----
-
-# Selected Technical Capabilities
-
-- 6-layer PCB design
-- Register-level embedded firmware
-- ARM Cortex-M development
-- RISC-V bare-metal development
-- High-voltage isolation design
-- Mixed-signal embedded systems
-- Oscilloscope & logic analyser debugging
-- Embedded communication protocols (I2C, SPI, UART)
-- Power electronics & precision sensing
-- Embedded C/C++
-- Python simulation & tooling
-- Hardware fault analysis & debugging
-
----
-
-# Featured Projects
-
-## ⚡ [High Voltage Automated Cable Tester](https://www.sam-topping.co.uk/portfolio/high-voltage-automated-cable-tester-project)
-
-> *16-channel automated subsea cable qualification system · ~1 kV DC · 6-layer PCB*
-
-16-channel automated cable qualification system for subsea and industrial harnesses. Generates programmable ~1 kV DC insulation test voltages with precision leakage current sensing, automated continuity validation, isolated measurement domains, and onboard fault logging.
-
-Designed around a distributed microcontroller architecture with galvanically isolated sensing stages and a 6-layer controlled-impedance PCB stackup intended for deployment within harsh industrial environments.
-
-### Key Features
-- ~1 kV DC insulation testing
-- Automated continuity validation
-- Distributed embedded architecture
-- Precision current sensing
-- Isolated high-voltage domains
-- Industrial deployment considerations
-- Subsea cable qualification workflow
-- Embedded logging & diagnostics
-
----
-
-## 💡 [WCHCH32V003_WS2812](https://github.com/Samjamie0104/WCHCH32V003_WS2812)
-
-> *Bare-metal WS2812B driver on the CH32V003 · RISC-V · No HAL*
-
-Bare-metal implementation of the WS2812B LED protocol on the CH32V003 RISC-V microcontroller using direct register manipulation and deterministic timing control.
-
-The WS2812B protocol requires sub-microsecond timing accuracy. The driver was implemented without vendor abstraction layers, directly controlling GPIO timing at the hardware level.
-
-### Technical Highlights
-- Direct register-level GPIO control
-- Deterministic timing implementation
-- No vendor HAL usage
-- RISC-V embedded development
-- Timing-critical signal generation
-
----
-
-## 🔐 [AES_Encryption](https://github.com/Samjamie0104/AES_Encyryption)
-
-> *AES encryption implemented in C from scratch*
-
-Clean-room AES implementation written entirely in C without third-party cryptographic libraries. Structured with modular source and test architecture using CMake-based builds.
-
-Focused on understanding algorithm-level implementation details, memory handling, and low-level cryptographic operations.
-
-### Technical Highlights
-- AES implementation from first principles
-- No external crypto libraries
-- Modular C architecture
-- CMake build system
-- Unit testing structure
-
----
-
-## 📡 [I2C_Multimaster_Simulations](https://github.com/Samjamie0104/I2C_Multimaster_Simulations)
-
-> *Python simulation of multimaster I2C arbitration and bus behaviour*
-
-Simulation environment for analysing I2C multimaster arbitration behaviour, bus ownership conflicts, and transaction-level communication behaviour before hardware implementation.
-
-Used as part of ongoing research into multimaster embedded architectures and deterministic communication systems.
-
-### Technical Highlights
-- I2C arbitration modelling
-- Multimaster bus simulation
-- Timing behaviour analysis
-- Protocol conflict handling
-- Embedded systems research tooling
-
----
-
-## 🔧 [blackpill](https://github.com/Samjamie0104/blackpill)
-
-> *STM32F411 bare-metal embedded development*
-
-Register-level STM32F411 development targeting deterministic peripheral control, direct memory access, timer configuration, and hardware-level debugging without abstraction layers.
-
-Focused on understanding Cortex-M architecture beyond vendor frameworks.
-
-### Technical Highlights
-- STM32F411 development
-- Direct peripheral access
-- Bare-metal Cortex-M programming
-- Timer & GPIO configuration
-- Hardware-level debugging
-
----
-
-# Engineering Interests
-
-- Embedded firmware architecture
-- Bare-metal ARM/RISC-V development
-- High-voltage electronics
-- Mixed-signal PCB design
-- Real-time systems
-- Hardware communication protocols
-- Embedded Linux & edge compute
-- Fault-tolerant embedded architectures
-- Low-level optimisation
-- Industrial instrumentation systems
-
----
-
-# Current Focus
-
-- Embedded operating system architecture and RTOS development on STM32
-- Deterministic firmware design and low-level peripheral control
-- High-speed embedded communications and multimaster I2C architectures
-- Advanced PCB design for high-voltage and mixed-signal systems
-- Hardware/software co-design for industrial embedded platforms
-
----
-
-# Experience
-
-## Ashtead Technology
-### Embedded & Electronics Engineering Placement
-
-Worked on subsea and industrial instrumentation systems within a real-world engineering environment, contributing to embedded electronics development, hardware integration, testing workflows, and engineering design activities.
-
-Exposure included:
-- Subsea instrumentation systems
-- Embedded hardware integration
-- Electronics testing & validation
-- Engineering documentation
-- Industrial deployment workflows
-- Fault analysis and diagnostics
-
----
-
-# Education
-
-## Robert Gordon University
-### MEng Electronic & Embedded Systems Engineering
-
-- Predicted / Current Classification: **First Class**
-- FastTrack integrated master's programme
-- Focus areas include embedded systems, electronics, firmware, PCB design, digital systems, and communication architectures
+I specialise in systems that operate close to the hardware layer: register-level firmware, mixed-signal electronics, and robust embedded architectures designed for real-world deployment.
 
 ---
 
 <div align="center">
 
-## Embedded systems engineered from silicon to software.
+## ⚡ Stack
+
+<br>
+
+**`Languages`**
+
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![ARM Assembly](https://img.shields.io/badge/ARM_ASM-0091BD?style=for-the-badge)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+
+**`Hardware & Silicon`**
+
+![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
+![RISC-V](https://img.shields.io/badge/RISC--V-283272?style=for-the-badge&logo=riscv&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00878F?style=for-the-badge&logo=arduino&logoColor=white)
+![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=for-the-badge&logo=kicad&logoColor=white)
+![Embedded Linux](https://img.shields.io/badge/Embedded_Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+**`Domains`**
+
+![Bare Metal](https://img.shields.io/badge/Bare_Metal-238636?style=for-the-badge)
+![High Voltage](https://img.shields.io/badge/⚡_High_Voltage-da3633?style=for-the-badge)
+![PCB Design](https://img.shields.io/badge/6--Layer_PCB-8957e5?style=for-the-badge)
+![I2C](https://img.shields.io/badge/I2C-30363d?style=for-the-badge)
+![SPI](https://img.shields.io/badge/SPI-30363d?style=for-the-badge)
+![UART](https://img.shields.io/badge/UART-30363d?style=for-the-badge)
+
+</div>
+
+<br>
+
+---
+
+<br>
+
+<div align="center">
+
+## 🔬 Featured Projects
+
+</div>
+
+<br>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### ⚡ [High Voltage Cable Tester](https://www.sam-topping.co.uk/portfolio/high-voltage-automated-cable-tester-project)
+
+**16-channel automated subsea cable qualification system**
+
+`~1kV DC` `6-layer PCB` `Galvanic Isolation` `Precision Sensing`
+
+Programmable high-voltage insulation testing with sub-microamp leakage measurement. Distributed microcontroller architecture with isolated sensing domains. Built for harsh industrial and subsea environments.
+
+> *The kind of project where one wrong trace means smoke.*
+
+</td>
+<td width="50%" valign="top">
+
+### 💡 [WCH CH32V003 WS2812](https://github.com/Samjamie0104/WCHCH32V003_WS2812)
+
+**Bare-metal WS2812B driver · RISC-V · No HAL**
+
+`Register-Level` `Sub-μs Timing` `Direct GPIO` `Zero Abstraction`
+
+WS2812B demands 400ns/850ns timing precision. Built through direct register manipulation on a RISC-V core — no vendor HAL, no libraries. Every clock cycle accounted for.
+
+> *When your timing budget is nanoseconds, there's no room for abstractions.*
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🔐 [AES Encryption](https://github.com/Samjamie0104/AES_Encyryption)
+
+**AES from first principles in C**
+
+`Clean Room` `No Libraries` `CMake` `Modular Architecture`
+
+Complete AES implementation without third-party crypto libraries. Every SubBytes, ShiftRows, and MixColumns operation written from scratch to understand encryption at the bit level.
+
+> *Because "just use OpenSSL" doesn't teach you anything.*
+
+</td>
+<td width="50%" valign="top">
+
+### 📡 [I2C Multimaster Sim](https://github.com/Samjamie0104/I2C_Multimaster_Simulations)
+
+**Python simulation of I2C bus arbitration**
+
+`Multimaster` `Arbitration Logic` `Bus Conflicts` `Protocol Analysis`
+
+Full simulation of I2C multimaster arbitration — bus ownership, collision handling, and transaction-level timing. Validate embedded communication architectures before committing to silicon.
+
+> *Simulate the bus fight before it happens on real hardware.*
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>🔧 More Projects</b></summary>
+<br>
+
+### [Blackpill — STM32F411 Bare-Metal](https://github.com/Samjamie0104/blackpill)
+
+Register-level STM32F411 development. Direct peripheral access — timers, DMA, GPIO — all through register manipulation. Understanding Cortex-M at the level the silicon intended.
+
+`STM32F411` `DMA` `Timers` `Bare Metal`
+
+</details>
+
+<br>
+
+---
+
+<br>
+
+<div align="center">
+
+## 📊 Stats
+
+<br>
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Samjamie0104&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff" alt="GitHub Stats" />
+&nbsp;
+<img width="49%" src="https://streak-stats.demolab.com/?user=Samjamie0104&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=161b22&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=8b949e&dates=6e7681" alt="GitHub Streak" />
+
+<br><br>
+
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Samjamie0104&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&area_color=58a6ff&hide_border=true&custom_title=Contribution%20Graph" alt="Activity Graph" />
+
+</div>
+
+<br>
+
+---
+
+<div align="center">
+
+<br>
+
+### Embedded systems engineered from silicon to software.
+
+*If it runs on bare metal and handles real voltage, I'm interested.*
+
+<br>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=120&section=footer" />
 
 </div>
