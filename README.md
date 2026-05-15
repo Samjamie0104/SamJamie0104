@@ -173,7 +173,7 @@ Register-level STM32F411 development. Direct peripheral access — timers, DMA, 
 
 <br>
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Samjamie0104&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff" alt="GitHub Stats" />
+<img width="49%" src="./assets/stats.svg" alt="Engineering Metrics" />
 &nbsp;
 <img width="49%" src="https://streak-stats.demolab.com/?user=Samjamie0104&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=161b22&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=8b949e&dates=6e7681" alt="GitHub Streak" />
 
