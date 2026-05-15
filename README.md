@@ -1,26 +1,31 @@
 <div align="center">
 
 # Sam Topping
-### Electronic & Embedded Systems Engineer
+### Embedded Systems & Electronics Engineer
 
 *First Class MEng · Robert Gordon University · Aberdeen, Scotland*
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-sam--topping.co.uk-0d1117?style=flat-square&logo=safari&logoColor=white&labelColor=21262d)](https://www.sam-topping.co.uk)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-sam--topping-0d1117?style=flat-square&logo=linkedin&logoColor=0A66C2&labelColor=21262d)](https://www.linkedin.com/in/sam-topping-768558229/)
+[![GitHub](https://img.shields.io/badge/GitHub-Samjamie0104-0d1117?style=flat-square&logo=github&logoColor=white&labelColor=21262d)](https://github.com/Samjamie0104)
 
 </div>
 
 ---
 
-I design hardware and write the firmware that runs on it — from bare-metal drivers on RISC-V and ARM Cortex-M to high-voltage subsea instrumentation rated to 1 kV. I care about the full stack: schematic, PCB, silicon, and the C that controls it.
+# About
 
-Currently completing a First Class MEng in Electronic & Embedded Systems at Robert Gordon University. Industry experience designing pressurised subsea electronics at **Ashtead Technology**.
+I design embedded systems from the PCB up — hardware, firmware, power electronics, and low-level software.
+
+My work spans bare-metal ARM and RISC-V development, high-voltage instrumentation, embedded communications, and production-oriented PCB design. I specialise in systems that operate close to the hardware layer: register-level firmware, mixed-signal electronics, and robust embedded architectures designed for real-world deployment.
+
+Currently completing a First Class MEng in Electronic & Embedded Systems at Robert Gordon University, with industry experience developing subsea instrumentation systems at **Ashtead Technology**.
 
 ---
 
-## Stack
+# Stack
 
-**Languages**
+## Languages
 
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
@@ -28,7 +33,9 @@ Currently completing a First Class MEng in Electronic & Embedded Systems at Robe
 ![ARM Assembly](https://img.shields.io/badge/ARM_Assembly-0091BD?style=flat-square)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 
-**Hardware & Embedded**
+---
+
+## Hardware & Embedded
 
 ![STM32](https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)
 ![RISC-V](https://img.shields.io/badge/RISC--V-283272?style=flat-square&logo=riscv&logoColor=white)
@@ -36,56 +43,175 @@ Currently completing a First Class MEng in Electronic & Embedded Systems at Robe
 ![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=flat-square&logo=kicad&logoColor=white)
 ![Bare Metal](https://img.shields.io/badge/Bare_Metal-success?style=flat-square)
 ![High Voltage](https://img.shields.io/badge/High_Voltage_PCB_%E2%9A%A1-critical?style=flat-square)
+![Embedded Linux](https://img.shields.io/badge/Embedded_Linux-0d1117?style=flat-square&logo=linux&logoColor=FCC624)
+![I2C](https://img.shields.io/badge/I2C-222222?style=flat-square)
+![SPI](https://img.shields.io/badge/SPI-222222?style=flat-square)
+![UART](https://img.shields.io/badge/UART-222222?style=flat-square)
 
 ---
 
-## Featured Projects
+# Selected Technical Capabilities
 
-### ⚡ [High Voltage Automated Cable Tester](https://www.sam-topping.co.uk/portfolio/high-voltage-automated-cable-tester-project)
-> *Self-designed, self-built — 1 kV DC, 16 channels, subsea-grade*
-
-Production-grade cable testing system for multi-core subsea and industrial cables. Generates a controlled ~1 kV DC test voltage with automated continuity and insulation resistance testing, precision leakage current sensing, and onboard data logging. 6-layer controlled PCB stackup, distributed microcontroller architecture, full isolation boundary. Designed for real-world deployment at Ashtead Technology.
+- 6-layer PCB design
+- Register-level embedded firmware
+- ARM Cortex-M development
+- RISC-V bare-metal development
+- High-voltage isolation design
+- Mixed-signal embedded systems
+- Oscilloscope & logic analyser debugging
+- Embedded communication protocols (I2C, SPI, UART)
+- Power electronics & precision sensing
+- Embedded C/C++
+- Python simulation & tooling
+- Hardware fault analysis & debugging
 
 ---
 
-### 💡 [WCHCH32V003_WS2812](https://github.com/Samjamie0104/WCHCH32V003_WS2812)
-> *Bare-metal WS2812B driver on the CH32V003 — RISC-V, no HAL*
+# Featured Projects
 
-Driving WS2812B addressable LEDs from a CH32V003 (32-bit RISC-V) in bare-metal C. The WS2812B protocol requires precise sub-microsecond timing — implemented without any vendor HAL, directly bit-banging the signal at the register level.
+## ⚡ [High Voltage Automated Cable Tester](https://www.sam-topping.co.uk/portfolio/high-voltage-automated-cable-tester-project)
+
+> *16-channel automated subsea cable qualification system · ~1 kV DC · 6-layer PCB*
+
+16-channel automated cable qualification system for subsea and industrial harnesses. Generates programmable ~1 kV DC insulation test voltages with precision leakage current sensing, automated continuity validation, isolated measurement domains, and onboard fault logging.
+
+Designed around a distributed microcontroller architecture with galvanically isolated sensing stages and a 6-layer controlled-impedance PCB stackup intended for deployment within harsh industrial environments.
+
+### Key Features
+- ~1 kV DC insulation testing
+- Automated continuity validation
+- Distributed embedded architecture
+- Precision current sensing
+- Isolated high-voltage domains
+- Industrial deployment considerations
+- Subsea cable qualification workflow
+- Embedded logging & diagnostics
 
 ---
 
-### 🔐 [AES_Encryption](https://github.com/Samjamie0104/AES_Encyryption)
+## 💡 [WCHCH32V003_WS2812](https://github.com/Samjamie0104/WCHCH32V003_WS2812)
+
+> *Bare-metal WS2812B driver on the CH32V003 · RISC-V · No HAL*
+
+Bare-metal implementation of the WS2812B LED protocol on the CH32V003 RISC-V microcontroller using direct register manipulation and deterministic timing control.
+
+The WS2812B protocol requires sub-microsecond timing accuracy. The driver was implemented without vendor abstraction layers, directly controlling GPIO timing at the hardware level.
+
+### Technical Highlights
+- Direct register-level GPIO control
+- Deterministic timing implementation
+- No vendor HAL usage
+- RISC-V embedded development
+- Timing-critical signal generation
+
+---
+
+## 🔐 [AES_Encryption](https://github.com/Samjamie0104/AES_Encyryption)
+
 > *AES encryption implemented in C from scratch*
 
-A clean C implementation of AES encryption built with CMake, structured with `src/` and `tests/` directories. No third-party crypto libraries — the algorithm is implemented directly.
+Clean-room AES implementation written entirely in C without third-party cryptographic libraries. Structured with modular source and test architecture using CMake-based builds.
+
+Focused on understanding algorithm-level implementation details, memory handling, and low-level cryptographic operations.
+
+### Technical Highlights
+- AES implementation from first principles
+- No external crypto libraries
+- Modular C architecture
+- CMake build system
+- Unit testing structure
 
 ---
 
-### 📡 [I2C_Multimaster_Simulations](https://github.com/Samjamie0104/I2C_Multimaster_Simulations)
-> *Python simulation of I2C multi-master arbitration*
+## 📡 [I2C_Multimaster_Simulations](https://github.com/Samjamie0104/I2C_Multimaster_Simulations)
 
-Simulates I2C multi-master bus arbitration behaviour in Python — useful for understanding and validating how devices compete for bus ownership before implementing in hardware.
+> *Python simulation of multimaster I2C arbitration and bus behaviour*
+
+Simulation environment for analysing I2C multimaster arbitration behaviour, bus ownership conflicts, and transaction-level communication behaviour before hardware implementation.
+
+Used as part of ongoing research into multimaster embedded architectures and deterministic communication systems.
+
+### Technical Highlights
+- I2C arbitration modelling
+- Multimaster bus simulation
+- Timing behaviour analysis
+- Protocol conflict handling
+- Embedded systems research tooling
 
 ---
 
-### 🔧 [blackpill](https://github.com/Samjamie0104/blackpill)
-> *STM32 Black Pill bare-metal experiments*
+## 🔧 [blackpill](https://github.com/Samjamie0104/blackpill)
 
-Bare-metal C on the STM32F411 Black Pill. Register-level peripheral access, no HAL.
+> *STM32F411 bare-metal embedded development*
+
+Register-level STM32F411 development targeting deterministic peripheral control, direct memory access, timer configuration, and hardware-level debugging without abstraction layers.
+
+Focused on understanding Cortex-M architecture beyond vendor frameworks.
+
+### Technical Highlights
+- STM32F411 development
+- Direct peripheral access
+- Bare-metal Cortex-M programming
+- Timer & GPIO configuration
+- Hardware-level debugging
 
 ---
 
-## Currently
+# Engineering Interests
 
-- 📡 Deep-diving into **registers and embedded development** — working toward building an RTOS from scratch on STM32
-- 🎓 Completing **First Class MEng** at Robert Gordon University
-- 💼 Open to **graduate roles and internships** in embedded systems or hardware engineering
+- Embedded firmware architecture
+- Bare-metal ARM/RISC-V development
+- High-voltage electronics
+- Mixed-signal PCB design
+- Real-time systems
+- Hardware communication protocols
+- Embedded Linux & edge compute
+- Fault-tolerant embedded architectures
+- Low-level optimisation
+- Industrial instrumentation systems
+
+---
+
+# Current Focus
+
+- Embedded operating system architecture and RTOS development on STM32
+- Deterministic firmware design and low-level peripheral control
+- High-speed embedded communications and multimaster I2C architectures
+- Advanced PCB design for high-voltage and mixed-signal systems
+- Hardware/software co-design for industrial embedded platforms
+
+---
+
+# Experience
+
+## Ashtead Technology
+### Embedded & Electronics Engineering Placement
+
+Worked on subsea and industrial instrumentation systems within a real-world engineering environment, contributing to embedded electronics development, hardware integration, testing workflows, and engineering design activities.
+
+Exposure included:
+- Subsea instrumentation systems
+- Embedded hardware integration
+- Electronics testing & validation
+- Engineering documentation
+- Industrial deployment workflows
+- Fault analysis and diagnostics
+
+---
+
+# Education
+
+## Robert Gordon University
+### MEng Electronic & Embedded Systems Engineering
+
+- Predicted / Current Classification: **First Class**
+- FastTrack integrated master's programme
+- Focus areas include embedded systems, electronics, firmware, PCB design, digital systems, and communication architectures
 
 ---
 
 <div align="center">
 
-*I build things that run close to the metal — and I ship them.*
+## Embedded systems engineered from silicon to software.
 
 </div>
