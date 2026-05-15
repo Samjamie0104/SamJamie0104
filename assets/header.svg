@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 250">
+  <defs>
+    <style>
+      @keyframes flow { to { stroke-dashoffset: -24; } }
+      @keyframes pulse { 0%, 100% { opacity: 0.3; } 50% { opacity: 1; } }
+    </style>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="0.6" fill="#21262d"/>
+    </pattern>
+    <filter id="led-glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="250" fill="#0d1117"/>
+  <rect width="900" height="250" fill="url(#dots)"/>
+
+  <!-- Board outline -->
+  <rect x="12" y="12" width="876" height="226" rx="3" fill="none" stroke="#21262d" stroke-width="0.8"/>
+
+  <!-- ═══ CIRCUIT TRACES ═══ -->
+
+  <!-- Top-left -->
+  <path d="M 12 45 H 80 V 75" stroke="#58a6ff" stroke-width="1.2" fill="none" opacity="0.35" stroke-dasharray="8 4" style="animation: flow 2s linear infinite"/>
+  <path d="M 12 65 H 55 V 105 H 100" stroke="#58a6ff" stroke-width="1.2" fill="none" opacity="0.25" stroke-dasharray="8 4" style="animation: flow 2.8s linear infinite"/>
+  <path d="M 35 12 V 38 H 115" stroke="#58a6ff" stroke-width="1.2" fill="none" opacity="0.3" stroke-dasharray="8 4" style="animation: flow 2.4s linear infinite"/>
+
+  <!-- Top-left vias -->
+  <circle cx="80" cy="75" r="4" fill="none" stroke="#58a6ff" stroke-width="0.8" opacity="0.4"/>
+  <circle cx="80" cy="75" r="1.5" fill="#58a6ff" opacity="0.4"/>
+  <circle cx="100" cy="105" r="4" fill="none" stroke="#58a6ff" stroke-width="0.8" opacity="0.35"/>
+  <circle cx="100" cy="105" r="1.5" fill="#58a6ff" opacity="0.35"/>
+  <circle cx="115" cy="38" r="4" fill="none" stroke="#58a6ff" stroke-width="0.8" opacity="0.3"/>
+  <circle cx="115" cy="38" r="1.5" fill="#58a6ff" opacity="0.3"/>
+
+  <!-- Top-right -->
+  <path d="M 888 48 H 815 V 72" stroke="#58a6ff" stroke-width="1.2" fill="none" opacity="0.3" stroke-dasharray="8 4" style="animation: flow 2.2s linear infinite"/>
+  <path d="M 888 68 H 840 V 98 H 785" stroke="#58a6ff" stroke-width="1.2" fill="none" opacity="0.25" stroke-dasharray="8 4" style="animation: flow 3s linear infinite"/>
+  <path d="M 845 12 V 42 H 765" stroke="#58a6ff" stroke-width="1.2" fill="none" opacity="0.3" stroke-dasharray="8 4" style="animation: flow 2.6s linear infinite"/>
+
+  <!-- Top-right vias -->
+  <circle cx="815" cy="72" r="4" fill="none" stroke="#58a6ff" stroke-width="0.8" opacity="0.35"/>
+  <circle cx="815" cy="72" r="1.5" fill="#58a6ff" opacity="0.35"/>
+  <circle cx="785" cy="98" r="4" fill="none" stroke="#58a6ff" stroke-width="0.8" opacity="0.3"/>
+  <circle cx="785" cy="98" r="1.5" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="765" cy="42" r="4" fill="none" stroke="#58a6ff" stroke-width="0.8" opacity="0.3"/>
+  <circle cx="765" cy="42" r="1.5" fill="#58a6ff" opacity="0.3"/>
+
+  <!-- Bottom-left -->
+  <path d="M 12 185 H 75 V 160" stroke="#58a6ff" stroke-width="1.2" fill="none" opacity="0.3" stroke-dasharray="8 4" style="animation: flow 2.6s linear infinite"/>
+  <path d="M 55 238 V 205 H 105" stroke="#58a6ff" stroke-width="1.2" fill="none" opacity="0.25" stroke-dasharray="8 4" style="animation: flow 3.2s linear infinite"/>
+
+  <!-- Bottom-left vias -->
+  <circle cx="75" cy="160" r="4" fill="none" stroke="#58a6ff" stroke-width="0.8" opacity="0.35"/>
+  <circle cx="75" cy="160" r="1.5" fill="#58a6ff" opacity="0.35"/>
+  <circle cx="105" cy="205" r="4" fill="none" stroke="#58a6ff" stroke-width="0.8" opacity="0.3"/>
+  <circle cx="105" cy="205" r="1.5" fill="#58a6ff" opacity="0.3"/>
+
+  <!-- Bottom-right -->
+  <path d="M 888 188 H 825 V 165" stroke="#58a6ff" stroke-width="1.2" fill="none" opacity="0.3" stroke-dasharray="8 4" style="animation: flow 2.4s linear infinite"/>
+  <path d="M 840 238 V 200 H 790" stroke="#58a6ff" stroke-width="1.2" fill="none" opacity="0.25" stroke-dasharray="8 4" style="animation: flow 3s linear infinite"/>
+
+  <!-- Bottom-right vias -->
+  <circle cx="825" cy="165" r="4" fill="none" stroke="#58a6ff" stroke-width="0.8" opacity="0.35"/>
+  <circle cx="825" cy="165" r="1.5" fill="#58a6ff" opacity="0.35"/>
+  <circle cx="790" cy="200" r="4" fill="none" stroke="#58a6ff" stroke-width="0.8" opacity="0.3"/>
+  <circle cx="790" cy="200" r="1.5" fill="#58a6ff" opacity="0.3"/>
+
+  <!-- ═══ IC CHIPS (decorative) ═══ -->
+
+  <!-- Left IC -->
+  <g opacity="0.2">
+    <rect x="125" y="155" width="40" height="50" rx="2" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>
+    <circle cx="132" cy="162" r="2" fill="none" stroke="#30363d" stroke-width="0.5"/>
+    <line x1="120" y1="165" x2="125" y2="165" stroke="#30363d" stroke-width="1.2"/>
+    <line x1="120" y1="175" x2="125" y2="175" stroke="#30363d" stroke-width="1.2"/>
+    <line x1="120" y1="185" x2="125" y2="185" stroke="#30363d" stroke-width="1.2"/>
+    <line x1="120" y1="195" x2="125" y2="195" stroke="#30363d" stroke-width="1.2"/>
+    <line x1="165" y1="165" x2="170" y2="165" stroke="#30363d" stroke-width="1.2"/>
+    <line x1="165" y1="175" x2="170" y2="175" stroke="#30363d" stroke-width="1.2"/>
+    <line x1="165" y1="185" x2="170" y2="185" stroke="#30363d" stroke-width="1.2"/>
+    <line x1="165" y1="195" x2="170" y2="195" stroke="#30363d" stroke-width="1.2"/>
+  </g>
+
+  <!-- Right IC -->
+  <g opacity="0.2">
+    <rect x="720" y="35" width="35" height="45" rx="2" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>
+    <circle cx="726" cy="41" r="2" fill="none" stroke="#30363d" stroke-width="0.5"/>
+    <line x1="715" y1="45" x2="720" y2="45" stroke="#30363d" stroke-width="1.2"/>
+    <line x1="715" y1="55" x2="720" y2="55" stroke="#30363d" stroke-width="1.2"/>
+    <line x1="715" y1="65" x2="720" y2="65" stroke="#30363d" stroke-width="1.2"/>
+    <line x1="755" y1="45" x2="760" y2="45" stroke="#30363d" stroke-width="1.2"/>
+    <line x1="755" y1="55" x2="760" y2="55" stroke="#30363d" stroke-width="1.2"/>
+    <line x1="755" y1="65" x2="760" y2="65" stroke="#30363d" stroke-width="1.2"/>
+  </g>
+
+  <!-- ═══ PASSIVE COMPONENTS (decorative) ═══ -->
+
+  <!-- Capacitor -->
+  <g opacity="0.15" transform="translate(160, 38)">
+    <line x1="0" y1="0" x2="0" y2="12" stroke="#30363d" stroke-width="1.5"/>
+    <line x1="5" y1="0" x2="5" y2="12" stroke="#30363d" stroke-width="1.5"/>
+    <line x1="-4" y1="6" x2="0" y2="6" stroke="#30363d" stroke-width="0.8"/>
+    <line x1="5" y1="6" x2="9" y2="6" stroke="#30363d" stroke-width="0.8"/>
+  </g>
+
+  <!-- Resistor -->
+  <g opacity="0.15" transform="translate(680, 178)">
+    <path d="M 0 5 L 4 5 L 6 0 L 10 10 L 14 0 L 18 10 L 22 0 L 26 10 L 28 5 L 32 5" stroke="#30363d" stroke-width="0.8" fill="none"/>
+  </g>
+
+  <!-- Pin header -->
+  <g opacity="0.15" transform="translate(185, 210)">
+    <rect x="0" y="0" width="5" height="5" fill="none" stroke="#30363d" stroke-width="0.6"/>
+    <rect x="8" y="0" width="5" height="5" fill="none" stroke="#30363d" stroke-width="0.6"/>
+    <rect x="16" y="0" width="5" height="5" fill="none" stroke="#30363d" stroke-width="0.6"/>
+    <rect x="24" y="0" width="5" height="5" fill="none" stroke="#30363d" stroke-width="0.6"/>
+  </g>
+
+  <!-- ═══ LED INDICATORS ═══ -->
+
+  <circle cx="50" cy="28" r="3" fill="#da3633" filter="url(#led-glow)" style="animation: pulse 2s ease-in-out infinite"/>
+  <text x="60" y="31" font-family="'Courier New', monospace" font-size="7" fill="#6e7681">PWR</text>
+
+  <circle cx="865" cy="28" r="3" fill="#238636" filter="url(#led-glow)" style="animation: pulse 2.5s ease-in-out infinite"/>
+  <text x="839" y="31" font-family="'Courier New', monospace" font-size="7" fill="#6e7681" text-anchor="end">RDY</text>
+
+  <!-- ═══ CENTER TEXT ═══ -->
+
+  <text x="450" y="98" text-anchor="middle" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#e6edf3" letter-spacing="2">Sam Topping</text>
+  <text x="450" y="128" text-anchor="middle" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#58a6ff" letter-spacing="4" font-weight="600">EMBEDDED SYSTEMS &amp; ELECTRONICS ENGINEER</text>
+  <text x="450" y="155" text-anchor="middle" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#6e7681" letter-spacing="1.5">First Class MEng · Robert Gordon University · Aberdeen, Scotland</text>
+
+  <!-- Decorative underline -->
+  <line x1="320" y1="170" x2="580" y2="170" stroke="#21262d" stroke-width="0.8"/>
+  <line x1="390" y1="170" x2="510" y2="170" stroke="#58a6ff" stroke-width="0.8" opacity="0.4" stroke-dasharray="4 3" style="animation: flow 4s linear infinite"/>
+
+  <!-- ═══ SQUARE WAVE (digital signal) ═══ -->
+
+  <g opacity="0.15" transform="translate(350, 185)">
+    <path d="M 0 10 V 0 H 12 V 10 H 24 V 0 H 36 V 10 H 48 V 0 H 60 V 10 H 72 V 0 H 84 V 10 H 96 V 0 H 108 V 10 H 120 V 0 H 132 V 10 H 144 V 0 H 156 V 10 H 168 V 0 H 180 V 10 H 192 V 0 H 200" stroke="#238636" stroke-width="1" fill="none"/>
+  </g>
+
+  <!-- ═══ BOTTOM REFERENCE TEXT ═══ -->
+
+  <text x="28" y="230" font-family="'Courier New', monospace" font-size="7" fill="#30363d">REV 2.0</text>
+  <text x="450" y="230" text-anchor="middle" font-family="'Courier New', monospace" font-size="7" fill="#30363d">— PCB DESIGN · FIRMWARE · POWER ELECTRONICS —</text>
+  <text x="872" y="230" text-anchor="end" font-family="'Courier New', monospace" font-size="7" fill="#30363d">github.com/Samjamie0104</text>
+
+</svg>

@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=220&section=header&text=Sam%20Topping&fontSize=42&fontColor=58a6ff&fontAlignY=35&desc=Embedded%20Systems%20%26%20Electronics%20Engineer&descSize=18&descColor=8b949e&descAlignY=55&animation=fadeIn" alt="header" />
+<img width="100%" src="./assets/header.svg" alt="Sam Topping — Embedded Systems & Electronics Engineer" />
 
 <br>
 
@@ -197,6 +197,6 @@ Register-level STM32F411 development. Direct peripheral access — timers, DMA, 
 
 <br>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=120&section=footer" />
+<img width="100%" src="./assets/footer.svg" alt="footer" />
 
 </div>
